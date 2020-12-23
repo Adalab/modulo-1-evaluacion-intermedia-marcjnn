@@ -25,7 +25,7 @@
 
 .logoContainer {
   width: 155px;
-  margin: 20px 0px;
+  margin-top: 10px;
 }
 
 .logoContainer img {
@@ -72,7 +72,7 @@
     justify-content: space-between;
   }
 
-  .imageContainer {
+  .logoContainer {
     margin: 20px 0px;
   }
 
