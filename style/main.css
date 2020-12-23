@@ -1,0 +1,51 @@
+:root {
+  --mainFont: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3cdbc0;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--mainFont);
+  color: #4a4a4a;
+  /* background coloro temporary only (???) */
+  background-color: white;
+}
+
+.imageContainer {
+  width: 155px;
+  margin-top: 10px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.menu {
+  margin: 10px 0px 13px;
+  text-transform: uppercase;
+  font-size: 16px;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.main {
+  display: none;
+}
