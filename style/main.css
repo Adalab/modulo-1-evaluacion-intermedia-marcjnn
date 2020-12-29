@@ -1,5 +1,5 @@
-:root {
-  --mainFont: "Rubik", sans-serif;
+body {
+  font-family: "Rubik", sans-serif;
 }
 
 * {
@@ -19,7 +19,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: var(--mainFont);
 }
 
 .logoContainer {
@@ -59,7 +58,6 @@
 }
 
 .title {
-  font-family: var(--mainFont);
   color: #ffffff;
   text-transform: capitalize;
   font-size: 30px;
