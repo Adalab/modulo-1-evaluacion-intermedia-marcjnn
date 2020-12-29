@@ -46,6 +46,7 @@ body {
 .link:visited {
   color: #4a4a4a;
   text-decoration: none;
+  padding: 2px;
 }
 
 .main {
